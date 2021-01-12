@@ -1,0 +1,8 @@
+create database db_tarea;
+
+create table tarea(
+idtarea serial primary key,
+	nombre varchar(20),
+	estado varchar(15),
+	descripcion varchar(50)
+);

@@ -1,0 +1,14 @@
+create database db_tarea;
+
+create table tarea(
+idtarea serial primary key,
+	nombre varchar(20),
+	estado varchar(15),
+	descripcion varchar(50)
+);
+
+CREATE SEQUENCE tarea_seq
+  MINVALUE 1
+  MAXVALUE 9999999999
+  START WITH 4
+  INCREMENT BY 1;
